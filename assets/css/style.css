@@ -1,3 +1,4 @@
+/*Website Defaults*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +8,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*Header Styling*/
 .header {
     padding: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,15 +46,16 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Hero Image Content*/
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
+/*Main Section Content*/
 .content {
     width: 75%;
     display: inline-block;
@@ -91,7 +93,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*Aside Content*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -150,7 +152,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Page Footer*/
 .footer {
     padding: 30px;
     clear: both;
